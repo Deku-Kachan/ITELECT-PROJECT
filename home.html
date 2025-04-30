@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+
+   <nav class="navbar nav-1">
+      <section class="flex">
+         <a href="home.html" class="logo"><i class="fas fa-house"></i>Home</a>
+
+         <ul>
+            <li><a href="#">Post Property<i class="fas fa-paper-plane"></i></a></li>
+         </ul>
+      </section>
+   </nav>
+
+   <nav class="navbar nav-2">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+         <div class="menu">
+            <ul>
+               <li><a href="#">Buy<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">House</a></li>
+                     <li><a href="#">Flat</a></li>
+                     <li><a href="#">Shop</a></li>
+                     <li><a href="#">Ready to Move</a></li>
+                     <li><a href="#">Furnished</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Sell<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">Post Property</a></li>
+                     <li><a href="#">Dashboard</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Rent<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">House</a></li>
+                     <li><a href="#">Flat</a></li>
+                     <li><a href="#">Shop</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Help<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="about.html">About Us</a></i></li>
+                     <li><a href="contact.html">Contact</a></i></li>
+                     <li><a href="contact.html#faq">FAQ</a></i></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+
+         <ul>
+            <li><a href="#">Saved <i class="far fa-heart"></i></a></li>
+            <li><a href="#">Account <i class="fas fa-angle-down"></i></a>
+               <ul>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+               </ul>
+            </li>
+         </ul>
+      </section>
+   </nav>
+
+</header>
+<div class="home">
+
+   <section class="center">
+
+      <form action="search.html" method="post">
+         <h3>Find your perfect Home</h3>
+         <div class="box">
+            <p>Enter Location <span>*</span></p>
+            <input type="text" name="location" required maxlength="50" placeholder="Enter city name" class="input">
+         </div>
+         <div class="flex">
+            <div class="box">
+               <p>Property Type <span>*</span></p>
+               <select name="type" class="input" required>
+                  <option value="flat">Flat</option>
+                  <option value="house">House</option>
+                  <option value="shop">Shop</option>
+                  <option value="condominium">Condominium</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>How many BHK <span>*</span></p>
+               <select name="bhk" class="input" required>
+                  <option value="1">1 BHK</option>
+                  <option value="2">2 BHK</option>
+                  <option value="3">3 BHK</option>
+                  <option value="4">4 BHK</option>
+               </select>
+            </div>
+           
+         </div>
+         <input type="submit" value="search property" name="search" class="btn">
+      </form>
+
+   </section>
+
+</div>
+<section class="services">
+
+   <h1 class="heading">Our Services</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="image/icon-1.png" alt="">
+         <h3>Buy House</h3>
+         <p></p>
+      </div>
+
+      <div class="box">
+         <img src="image/icon-2.png" alt="">
+         <h3>Rent House</h3>
+         <p></p>
+      </div>
+
+      <div class="box">
+         <img src="image/icon-3.png" alt="">
+         <h3>Sell House</h3>
+         <p></p>
+      </div>
+
+      <div class="box">
+         <img src="image/icon-4.png" alt="">
+         <h3>Flats and Buildings</h3>
+         <p></p>
+      </div>
+
+      <div class="box">
+         <img src="image/icon-5.png" alt="">
+         <h3>Shops and Malls</h3>
+         <p></p>
+      </div>
+
+      <div class="box">
+         <img src="image/icon-6.png" alt="">
+         <h3>11/7 Service</h3>
+         <p></p>
+      </div>
+
+   </div>
+
+</section>
+<section class="listings">
+
+   <h1 class="heading">Latest Listings</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="admin">
+            <h3>C</h3>
+            <div>
+               <p>Clark Raiven Gravador</p>
+               <span>4-30-2025</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>House</span><span>Sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="image/house-img-1.webp" alt="">
+         </div>
+         <h3 class="name">Modern Flats and Appartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Camarin, Caloocan, Philippines</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>5</span></p>
+            <p><i class="fas fa-bath"></i><span>3</span></p>
+            <p><i class="fas fa-maximize"></i><span>1800sqm</span></p>
+         </div>
+         <a href="view_property.html" class="btn">View property</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>L</h3>
+            <div>
+               <p>Luckie Brian</p>
+               <span>11-03-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>Flat</span><span>Sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="image/hall-img-2.webp" alt="">
+         </div>
+         <h3 class="name">Modern Flats and Appartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Camarin, Caloocan, Philippines</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>2</span></p>
+            <p><i class="fas fa-bath"></i><span>1</span></p>
+            <p><i class="fas fa-maximize"></i><span>750sqm</span></p>
+         </div>
+         <a href="view_property.html" class="btn">View Property</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>L</h3>
+            <div>
+               <p>Lizett Ann Dela Cruz</p>
+               <span>10-07-2024</span>
+            </div>  
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>Flat</span><span>Sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="image/house-img-3.jpg" alt="">
+         </div>
+         <h3 class="name">Modern Flats and Appartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Camarin, Caloocan, Philippines</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>4</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>900sqm</span></p>
+         </div>
+         <a href="view_property.html" class="btn">View Property</a>
+      </div>
+
+   </div>
+
+   <div style="margin-top: 2rem; text-align:center;">
+      <a href="listings.html" class="inline-btn">View All</a>
+   </div>
+
+</section>
+<footer class="footer">
+ 
+    <div class="credit">&copy; 2025 by <span>Brian, Luckie S.</span> | All Rights Reserved!</div>
+ 
+ </footer>
+<script src="script.js"></script>
+
+</body>
+</html>
